@@ -6,6 +6,12 @@
 
 <script>
 export default {
-  name: 'App'
-}
+  name: "App"
+};
 </script>
+<style lang="scss">
+@import "~@/styles/base.scss";
+#app .sidebar-container {
+  position: absolute;
+}
+</style>
